@@ -17,7 +17,7 @@ from evaluateur import (
 @pytest.mark.parametrize(
     "note_cours, note_examen, total_attendu, niveau_attendu",
     [
-        ("25", "4", 29, "C"),   # frontière D (juste en dessous de 30)
+        ("25", "4", 29, "D"),   # frontière D (juste en dessous de 30)
         ("25", "5", 30, "C"),   # passage D -> C
 
         ("25", "24", 49, "C"),  # frontière C (juste en dessous de 50)
