@@ -36,4 +36,4 @@ jobs:
         flake8 evaluateur.py --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --cov=. --cov-report=xml:reports\coverage.xml --cov-fail-under=80 .
+        python -m pytest --cov=. --cov-report=xml:reports\coverage.xml --cov-fail-under=80 .
