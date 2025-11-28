@@ -1,3 +1,4 @@
+# noqa: E501
 # test_evaluateur.py
 
 import pytest
